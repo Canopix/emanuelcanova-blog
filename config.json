@@ -1,0 +1,19 @@
+{
+  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
+  "site_title": "Emanuel Canova",
+  "site_description": "Where the code is rising",
+  "site_keywords": [
+    {
+      "keyword": "Next.js"
+    },
+    {
+      "keyword": "Netlify"
+    },
+    {
+      "keyword": "React"
+    }
+  ],
+  "posts_per_page": 10,
+  "twitter_account": "@emanuel_hodl",
+  "github_account": "Canopix"
+}
