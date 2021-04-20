@@ -14,20 +14,18 @@ export default function Layout({ children }: Props) {
         <link rel="apple-touch-icon" href="/icon.png" />
         <meta name="theme-color" content="#fff" />
       </Head>
-      <nav>
-        <Navigation />
-      </nav>
+      <Navigation />
       <main>{children}</main>
       <style jsx>
         {`
           .root {
             display: block;
-            padding: 4rem 0;
             box-sizing: border-box;
-            height: 100%;
+            height: 100vh;
           }
           main {
             display: flex;
+            padding-top: 3rem;
             min-height: 100%;
           }
           @media (min-width: 769px) {
