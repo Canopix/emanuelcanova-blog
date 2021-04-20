@@ -7,7 +7,7 @@ export const Container = styled.div`
   width: 20%;
 `;
 
-export const StyledLink = styled.a`
+export const StyledLink = styled.div`
   font-size: 2rem;
   color: ${({ active }) => (active ? "black" : "gray")};
   cursor: ${({ pointer }) => (pointer ? "pointer" : "")};

@@ -13,6 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
     theme == "light" ? setTheme("dark") : setTheme("light");
   };
   
+  console.log(lightTheme);
   return (
     <ThemeProvider theme={theme == 'light' ? lightTheme : darkTheme}>
       <GlobalStyles />
